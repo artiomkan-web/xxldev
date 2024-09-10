@@ -1,0 +1,312 @@
+@font-face
+{
+    font-family: 'icons';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('fonts/icons.eot?aa9m0j');
+    src: url('fonts/icons.eot?aa9m0j#iefix') format('embedded-opentype'), url('fonts/icons.ttf?aa9m0j') format('truetype'), url('fonts/icons.woff?aa9m0j') format('woff'), url('fonts/icons.svg?aa9m0j#icons') format('svg');
+    font-display: block;
+}
+
+i
+{
+    font-family: 'icons' !important;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+
+    text-transform: none;
+
+    speak: never;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+i::before
+{
+    -webkit-transition: .2s;
+         -o-transition: .2s;
+            transition: .2s;
+}
+
+.icon-arrow2-top:before
+{
+    content: '\e907';
+    -webkit-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+            transform: rotate(270deg);
+
+    color: #f5f7f9;
+}
+
+.icon-arrow2-bottom:before
+{
+    content: '\e907';
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+
+    color: #f5f7f9;
+}
+
+.icon-arrow2-left:before
+{
+    content: '\e907';
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+
+    color: #f5f7f9;
+}
+
+.icon-arrow2-right:before
+{
+    content: '\e907';
+
+    color: #f5f7f9;
+}
+
+.icon-logo:before
+{
+    content: '\e920';
+}
+
+.icon-telegram2:before
+{
+    margin-left: -.25rem;
+
+    content: '\e91f';
+    -webkit-transform: scale(.85);
+        -ms-transform: scale(.85);
+            transform: scale(.85);
+
+    color: #bfbfbf;
+}
+
+.icon-facebook:before
+{
+    content: '\e902';
+
+    color: #f5f7f9;
+}
+
+.icon-instagram:before
+{
+    content: '\e903';
+
+    color: #f5f7f9;
+}
+
+.icon-instagram2:before
+{
+    content: '\e90c';
+
+    color: #bfbfbf;
+}
+
+.icon-telegram:before
+{
+    content: '\e90d';
+
+    color: #f5f7f9;
+}
+
+.icon-whatsapp .path1:before
+{
+    content: '\e91c';
+
+    color: #f5f7f9;
+}
+
+.icon-whatsapp .path2:before
+{
+    margin-left: -1em;
+
+    content: '\e91d';
+
+    color: white;
+}
+
+.icon-whatsapp2:before
+{
+    content: '\e91e';
+
+    color: #bfbfbf;
+}
+
+.icon-medal .path1:before
+{
+    content: '\e911';
+
+    color: #605df4;
+}
+
+.icon-medal .path2:before
+{
+    margin-left: -.9833984375em;
+
+    content: '\e918';
+
+    color: #605df4;
+}
+
+.icon-medal .path3:before
+{
+    margin-left: -.9833984375em;
+
+    content: '\e919';
+
+    color: #605df4;
+}
+
+.icon-medal .path4:before
+{
+    margin-left: -.9833984375em;
+
+    content: '\e91a';
+
+    opacity: .4;
+    color: #605df4;
+}
+
+.icon-medal .path5:before
+{
+    margin-left: -.9833984375em;
+
+    content: '\e91b';
+
+    color: #605df4;
+}
+
+.icon-quote-first:before
+{
+    content: '\e915';
+
+    color: #605df4;
+}
+
+.icon-quote-last:before
+{
+    content: '\e916';
+
+    color: #605df4;
+}
+
+.icon-category:before
+{
+    content: '\e912';
+
+    color: #605df4;
+}
+
+.icon-friends:before
+{
+    content: '\e913';
+
+    color: #605df4;
+}
+
+.icon-graphic:before
+{
+    content: '\e914';
+
+    color: #605df4;
+}
+
+.icon-accessibility1:before
+{
+    content: '\e917';
+
+    color: #605df4;
+}
+
+.icon-microphone:before
+{
+    content: '\e906';
+}
+
+.icon-arrow1-top-right:before
+{
+    content: '\e900';
+}
+
+.icon-fileshare:before
+{
+    content: '\e901';
+}
+
+.icon-cup:before
+{
+    content: '\e904';
+
+    color: #f5f7f9;
+}
+
+.icon-accessibility:before
+{
+    content: '\e905';
+
+    color: #605df4;
+}
+
+.icon-arrow2-right:before
+{
+    content: '\e907';
+
+    color: #f5f7f9;
+}
+
+.icon-competitive:before
+{
+    content: '\e908';
+
+    color: #605df4;
+}
+
+.icon-google-drive:before
+{
+    content: '\e909';
+}
+
+.icon-interaction:before
+{
+    content: '\e90a';
+
+    color: #605df4;
+}
+
+.icon-mail:before
+{
+    content: '\e90b';
+
+    color: #5235e8;
+}
+
+.icon-personalization:before
+{
+    content: '\e90e';
+
+    color: #605df4;
+}
+
+.icon-star:before
+{
+    content: '\e90f';
+
+    color: #605df4;
+}
+
+.icon-ticket-time:before
+{
+    content: '\e910';
+}
+@supports (-webkit-appearance:none)
+{
+}

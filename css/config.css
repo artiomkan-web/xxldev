@@ -1,0 +1,209 @@
+img
+{
+    max-width: 100%;
+    height: auto;
+
+    vertical-align: middle;
+}
+
+.video
+{
+    position: relative;
+
+    overflow: hidden;
+
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video iframe,
+.video object,
+.video embed
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+@font-face
+{
+    font-family: 'icons';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/icons.woff') format('woff'), url('../fonts/icons.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'JetBrainsMono';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/JetBrainsMono-Regular.woff') format('woff'), url('../fonts/JetBrainsMono-Regular.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/Montserrat-BoldItalic.woff') format('woff'), url('../fonts/Montserrat-BoldItalic.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/Montserrat-Italic.woff') format('woff'), url('../fonts/Montserrat-Italic.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/Montserrat-LightItalic.woff') format('woff'), url('../fonts/Montserrat-LightItalic.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/Montserrat-Light.woff') format('woff'), url('../fonts/Montserrat-Light.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/Montserrat-Medium.woff') format('woff'), url('../fonts/Montserrat-Medium.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/Montserrat-SemiBold.woff') format('woff'), url('../fonts/Montserrat-SemiBold.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/Poppins-Black.woff') format('woff'), url('../fonts/Poppins-Black.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.woff2') format('woff2');
+}
+
+*,
+*::before,
+*::after
+{
+    font-weight: 400;
+    line-height: 100%;
+
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    border-spacing: unset;
+    border-collapse: separate;
+    list-style-type: none;
+
+    -webkit-transition: .4s;
+         -o-transition: .4s;
+            transition: .4s;
+    text-decoration: none;
+
+    border: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    scroll-behavior: smooth;
+}
+
+a,
+input,
+button,
+textarea
+{
+    font-size: inherit;
+    line-height: inherit;
+
+    display: inline-block;
+
+    color: inherit;
+    outline: none;
+}
+
+button
+{
+    cursor: pointer;
+
+    background: none;
+}
+
+.slick-list
+{
+    overflow: hidden;
+}
+
+.slick-track
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+@supports (-webkit-appearance:none)
+{
+}
